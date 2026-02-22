@@ -24,8 +24,6 @@ export default defineConfig([
     },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
-    },
-        rules: {
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
@@ -38,6 +36,5 @@ export default defineConfig([
       'react/prop-types': 'off', // add this line
       'react/no-unescaped-entities': 'off', // add this line
     },
-
   },
 ])
