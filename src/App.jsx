@@ -3,16 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-// Components - need to make this camelcase
-
-// change the file names to pascal case, then doo tab complettion on these imports
-
-// change imports on each component to react-router
-
 import NavBar from './components/NavBar/NavBar.jsx';
-import MailboxForm from './components/mailboxform/mailboxform.jsx';
-import MailboxList from './components/mailboxlist/mailboxlist.jsx';
-import MailboxDetails from './components/mailboxdetails/mailboxdetails.jsx';
+import MailboxForm from './components/MailboxForm/MailboxForm.jsx';
+import MailboxList from './components/MailboxList/MailboxList.jsx';
+import MailboxDetails from './components/MailboxDetails/MailboxDetails.jsx';
 
 // src/App.jsx
 
