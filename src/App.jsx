@@ -18,7 +18,7 @@ const App = () => {
   const addBox = (formData) => {
     const newMailbox = {
       ...formData,
-      _id: mailboxes.length + 1, // Auto-generating the unique ID
+      _id: mailboxes.length + 1,
     };
     setMailboxes([...mailboxes, newMailbox]);
   };
